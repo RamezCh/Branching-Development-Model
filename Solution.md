@@ -7,6 +7,7 @@
 2. Create Feature Branches:
 - git checkout -b Feature1 Integration
 - git checkout -b Feature2 Integration
+![Image 1](GitProject_1.png)
 3. Commit and Merge in Feature Branches:
 - git checkout Feature2
 - git add .
@@ -27,6 +28,7 @@
 - git checkout Feature1
 - git add .
 - git commit -m "Further Feature 1 changes"
+![Image 2](GitProject_2.png)
 - git checkout Integration
 - git merge Feature1
 - git checkout Hotfix
@@ -41,4 +43,8 @@
 - git merge Hotfix
 - git checkout Integration
 - git merge Hotfix
+![Image 3](GitProject_3.png)
+
+![End Image](1608025990_Picture1.png)
+
 By following these steps, you'll be able to create and manage a branching model that follows the Git Feature Branch Workflow as described. This will help your team understand how to integrate their work efficiently and manage different branches for development, testing, and production.
